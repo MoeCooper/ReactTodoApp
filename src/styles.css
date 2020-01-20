@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoItems div {
+  flex-direction: column;
+  padding: 10px;
+  height: 30px;
+  width: 250px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.header-navbar {
+  height: 8rem;
+  width: 100vw;
+  color: rgb(223, 226, 208);
+  background-color: rgba(44, 5, 5, 0.945);
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
